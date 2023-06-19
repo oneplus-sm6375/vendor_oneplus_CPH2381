@@ -16,7 +16,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/CPH2381/proprietary/odm/etc/dirac/diracmobile.config:$(TARGET_COPY_OUT_ODM)/etc/dirac/diracmobile.config \
     vendor/oneplus/CPH2381/proprietary/odm/etc/dirac/diracvdd.bin:$(TARGET_COPY_OUT_ODM)/etc/dirac/diracvdd.bin \
     vendor/oneplus/CPH2381/proprietary/odm/etc/dirac/interfacedb:$(TARGET_COPY_OUT_ODM)/etc/dirac/interfacedb \
-    vendor/oneplus/CPH2381/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc \
+    
     vendor/oneplus/CPH2381/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc \
     vendor/oneplus/CPH2381/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc \
     vendor/oneplus/CPH2381/proprietary/odm/etc/init/vibrator-default.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vibrator-default.rc \
