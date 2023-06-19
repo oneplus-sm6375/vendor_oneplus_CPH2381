@@ -164,19 +164,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/CPH2381/proprietary/odm/firmware/ufs/SAMSUNG-KM8V9001JM-B813.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SAMSUNG-KM8V9001JM-B813.bin \
     vendor/oneplus/CPH2381/proprietary/odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh:$(TARGET_COPY_OUT_ODM)/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh \
     vendor/oneplus/CPH2381/proprietary/odm/init.oplus.fingerprints.rc:$(TARGET_COPY_OUT_ODM)/init.oplus.fingerprints.rc \
-    vendor/oneplus/CPH2381/proprietary/odm/lib/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.biometrics.fingerprint@2.1.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib/android.hardware.biometrics.fingerprint@2.2.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.biometrics.fingerprint@2.2.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib/android.hardware.biometrics.fingerprint@2.3.so:$(TARGET_COPY_OUT_ODM)/lib/android.hardware.biometrics.fingerprint@2.3.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib/camera/com.qti.sensor.gc02m1.so:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensor.gc02m1.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib/camera/com.qti.sensor.gc02m1b.so:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensor.gc02m1b.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib/camera/com.qti.sensor.ov64b.so:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensor.ov64b.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib/camera/com.qti.sensor.sy_imx471.so:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensor.sy_imx471.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G2.default.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G3.default.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G5.default.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G6.default.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.goodix_G7.default.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_ODM)/lib/hw/fingerprint.silead.default.so \
+    
     vendor/oneplus/CPH2381/proprietary/odm/lib/lib2DSlender.so:$(TARGET_COPY_OUT_ODM)/lib/lib2DSlender.so \
     vendor/oneplus/CPH2381/proprietary/odm/lib/libAlgoInterface.so:$(TARGET_COPY_OUT_ODM)/lib/libAlgoInterface.so \
     vendor/oneplus/CPH2381/proprietary/odm/lib/libAlgoProcess.so:$(TARGET_COPY_OUT_ODM)/lib/libAlgoProcess.so \
@@ -277,32 +265,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/CPH2381/proprietary/odm/lib64/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/oneplus/CPH2381/proprietary/odm/lib64/android.hardware.biometrics.fingerprint@2.2.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.biometrics.fingerprint@2.2.so \
     vendor/oneplus/CPH2381/proprietary/odm/lib64/android.hardware.biometrics.fingerprint@2.3.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.biometrics.fingerprint@2.3.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.sensor.gc02m1.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.gc02m1.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.sensor.gc02m1b.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.gc02m1b.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.sensor.ov64b.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.ov64b.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.sensor.sy_imx471.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.sy_imx471.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.sensormodule.gc02m1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.gc02m1.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.sensormodule.gc02m1b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.gc02m1b.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.sensormodule.ov08d10.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.ov08d10.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.sensormodule.ov64b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.ov64b.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.sensormodule.s5kjn1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.s5kjn1.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.sensormodule.sy_imx471.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.sy_imx471.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.tuned.gc02m1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.gc02m1.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.tuned.gc02m1b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.gc02m1b.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.tuned.imx471.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.imx471.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/com.qti.tuned.ov64b.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.ov64b.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigpreview.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigpreviewlite.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideo.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideolite.bin \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G2.default.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G3.default.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G5.default.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/hw/fingerprint.goodix_G6.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G6.default.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/hw/fingerprint.goodix_G7.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G7.default.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.silead.default.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/hw/fpsensor_fingerprint.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fpsensor_fingerprint.default.so \
-    vendor/oneplus/CPH2381/proprietary/odm/lib64/hw/sidefp_fingerprint.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/sidefp_fingerprint.default.so \
+    
     vendor/oneplus/CPH2381/proprietary/odm/lib64/lib2DSlender.so:$(TARGET_COPY_OUT_ODM)/lib64/lib2DSlender.so \
     vendor/oneplus/CPH2381/proprietary/odm/lib64/libAlgoInterface.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoInterface.so \
     vendor/oneplus/CPH2381/proprietary/odm/lib64/libAlgoProcess.so:$(TARGET_COPY_OUT_ODM)/lib64/libAlgoProcess.so \
