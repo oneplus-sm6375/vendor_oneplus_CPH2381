@@ -11,8 +11,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/CPH2381/proprietary/odm/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service \
     vendor/oneplus/CPH2381/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
     vendor/oneplus/CPH2381/proprietary/odm/etc/audio.cfg:$(TARGET_COPY_OUT_ODM)/etc/audio.cfg \
-    vendor/oneplus/CPH2381/proprietary/odm/etc/audio_effects.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_effects.xml \
-    vendor/oneplus/CPH2381/proprietary/odm/etc/audio_platform_info.xml:$(TARGET_COPY_OUT_ODM)/etc/audio_platform_info.xml \
+    
     vendor/oneplus/CPH2381/proprietary/odm/etc/dirac/diracmobile.config:$(TARGET_COPY_OUT_ODM)/etc/dirac/diracmobile.config \
     vendor/oneplus/CPH2381/proprietary/odm/etc/dirac/diracvdd.bin:$(TARGET_COPY_OUT_ODM)/etc/dirac/diracvdd.bin \
     vendor/oneplus/CPH2381/proprietary/odm/etc/dirac/interfacedb:$(TARGET_COPY_OUT_ODM)/etc/dirac/interfacedb \
