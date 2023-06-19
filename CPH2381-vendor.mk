@@ -9,7 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/CPH2381/proprietary/bin/iwpriv:$(TARGET_COPY_OUT_SYSTEM)/bin/iwpriv \
     vendor/oneplus/CPH2381/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service \
    
-    vendor/oneplus/CPH2381/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service \
     vendor/oneplus/CPH2381/proprietary/odm/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service \
     vendor/oneplus/CPH2381/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
     vendor/oneplus/CPH2381/proprietary/odm/etc/audio.cfg:$(TARGET_COPY_OUT_ODM)/etc/audio.cfg \
